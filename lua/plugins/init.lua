@@ -14,6 +14,10 @@ return require('packer').startup(function()
   use 'williamboman/nvim-lsp-installer'
   use 'hrsh7th/nvim-compe'
   use {
+  'nvim-telescope/telescope.nvim',
+  requires = { {'nvim-lua/plenary.nvim'} }
+}
+  use {
   'lewis6991/gitsigns.nvim',
   -- tag = 'release' -- To use the latest release
 }
