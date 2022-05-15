@@ -9,4 +9,6 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
+keymap("n", "<C-Left>", ":tabprevious<CR>", opts)
+keymap("n", "<C-Right>", ":tabnext<CR>", opts)
 keymap("i", "<C-Space>", "compe#complete()", opts)
