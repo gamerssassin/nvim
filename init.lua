@@ -1,7 +1,7 @@
 require('plugins')
 require('treesitter-config')
 require('keymaps')
-
+require('compe')
 vim.cmd('colorscheme nightfox')
 vim.cmd('set wrap')
 vim.cmd('set hidden')
