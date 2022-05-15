@@ -11,6 +11,5 @@ return require('packer').startup(function()
   use 'junegunn/goyo.vim'
   use 'tpope/vim-fugitive'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
-  use 'nvim-treesitter/completion-treesitter'
   use 'williamboman/nvim-lsp-installer'
 end)
