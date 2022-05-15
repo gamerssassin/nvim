@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/auto-pairs",
     url = "https://github.com/jiangmiao/auto-pairs"
   },
+  ["completion-treesitter"] = {
+    loaded = true,
+    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/completion-treesitter",
+    url = "https://github.com/nvim-treesitter/completion-treesitter"
+  },
   ["goyo.vim"] = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/goyo.vim",
@@ -99,25 +104,15 @@ _G.packer_plugins = {
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
-  ["nvim-lspconfig"] = {
+  ["nvim-lsp-installer"] = {
     loaded = true,
-    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
-    url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/kyazdani42/nvim-tree.lua"
+    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
+    url = "https://github.com/williamboman/nvim-lsp-installer"
   },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
-  ["nvim-web-devicons"] = {
-    loaded = true,
-    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
-    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
