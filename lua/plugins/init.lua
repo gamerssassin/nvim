@@ -12,4 +12,10 @@ return require('packer').startup(function()
   use 'tpope/vim-fugitive'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'williamboman/nvim-lsp-installer'
+  use 'hrsh7th/nvim-compe'
+  use 'andweeb/presence.nvim'
+  use {
+  'lewis6991/gitsigns.nvim',
+  -- tag = 'release' -- To use the latest release
+}
 end)
