@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/completion-treesitter",
     url = "https://github.com/nvim-treesitter/completion-treesitter"
   },
-  ["dashboard-nvim"] = {
-    loaded = true,
-    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
-    url = "https://github.com/glepnir/dashboard-nvim"
-  },
   ["goyo.vim"] = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/goyo.vim",
