@@ -14,8 +14,18 @@ return require('packer').startup(function()
   use 'hrsh7th/nvim-compe'
   use {
     "williamboman/nvim-lsp-installer",
-    "neovim/nvim-lspconfig",
+    {
+        "neovim/nvim-lspconfig",
+        config = function()
+            require("nvim-lsp-installer").setup {}
+            local lspconfig = require("lspconfig")
+            lspconfig.sumneko_lua.setup {}
+			lspconfig.pyright.setup{}
+			lspconfig.clangd.setup{}
+        end
+    }
 }
+
   use {
   'nvim-telescope/telescope.nvim',
   requires = { {'nvim-lua/plenary.nvim'} }

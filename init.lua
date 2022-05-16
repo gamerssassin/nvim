@@ -2,7 +2,7 @@ require('plugins')
 require('treesitter-config')
 require('keymaps')
 require('compe-config')
-require'lspconfig'.pyright.setup{}
+
 vim.cmd('colorscheme nightfox')
 vim.cmd('set wrap')
 vim.cmd('set hidden')
