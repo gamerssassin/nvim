@@ -11,8 +11,11 @@ return require('packer').startup(function()
   use 'junegunn/goyo.vim'
   use 'tpope/vim-fugitive'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
-  use 'williamboman/nvim-lsp-installer'
   use 'hrsh7th/nvim-compe'
+  use {
+    "williamboman/nvim-lsp-installer",
+    "neovim/nvim-lspconfig",
+}
   use {
   'nvim-telescope/telescope.nvim',
   requires = { {'nvim-lua/plenary.nvim'} }
