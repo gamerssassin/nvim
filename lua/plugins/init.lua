@@ -1,6 +1,7 @@
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   use 'preservim/nerdtree'
+  use 'vimwiki/vimwiki'
   use 'Xuyuanp/nerdtree-git-plugin'
   use 'ryanoasis/vim-devicons'
   use 'farmergreg/vim-lastplace'
