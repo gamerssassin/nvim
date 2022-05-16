@@ -2,6 +2,7 @@ require('plugins')
 require('treesitter-config')
 require('keymaps')
 require('compe-config')
+require'lspconfig'.pyright.setup{}
 vim.cmd('colorscheme nightfox')
 vim.cmd('set wrap')
 vim.cmd('set hidden')
@@ -13,6 +14,5 @@ vim.cmd('set incsearch')
 vim.cmd('filetype indent plugin on')
 vim.cmd('set tabstop=4 softtabstop=4')
 vim.cmd('set encoding=utf-8')
-
 
 
