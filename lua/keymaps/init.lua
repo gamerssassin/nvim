@@ -11,6 +11,11 @@ keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 keymap("n","<C-t>", ":term", opts)
 
+keymap("n", "<A-1>", ":1gt", opts)
+keymap("n", "<A-2>", ":2gt", opts)
+keymap("n", "<A-3>", ":3gt", opts)
+keymap("n", "<A-4>", ":4gt", opts)
+
 keymap("n", "<C-Left>", ":tabprevious<CR>", opts)
 keymap("n", "<C-Right>", ":tabnext<CR>", opts)
 keymap("i", "<TAB>", "compe#complete()", opts)
