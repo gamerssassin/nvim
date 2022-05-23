@@ -14,6 +14,7 @@ return require('packer').startup(function()
   use 'ful1e5/onedark.nvim'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'hrsh7th/nvim-compe'
+  use {'mangeshrex/everblush.vim'}
   use {
     "williamboman/nvim-lsp-installer",
     {
