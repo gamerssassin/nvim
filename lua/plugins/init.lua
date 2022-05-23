@@ -11,6 +11,7 @@ return require('packer').startup(function()
   use 'EdenEast/nightfox.nvim'
   use 'junegunn/goyo.vim'
   use 'tpope/vim-fugitive'
+  use 'ful1e5/onedark.nvim'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'hrsh7th/nvim-compe'
   use {

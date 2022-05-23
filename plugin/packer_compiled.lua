@@ -125,6 +125,11 @@ _G.packer_plugins = {
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/ful1e5/onedark.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/packer.nvim",
