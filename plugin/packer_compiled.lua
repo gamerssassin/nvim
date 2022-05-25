@@ -150,6 +150,11 @@ _G.packer_plugins = {
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/rainbow",
     url = "https://github.com/luochen1990/rainbow"
   },
+  ["semantic-highlight.vim"] = {
+    loaded = true,
+    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/semantic-highlight.vim",
+    url = "https://github.com/jaxbot/semantic-highlight.vim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/telescope.nvim",

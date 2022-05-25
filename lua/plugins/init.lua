@@ -15,6 +15,7 @@ return require('packer').startup(function()
   use 'octol/vim-cpp-enhanced-highlight'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'hrsh7th/nvim-compe'
+  use 'jaxbot/semantic-highlight.vim'
   use {'mangeshrex/everblush.vim'}
   use {
     "williamboman/nvim-lsp-installer",
