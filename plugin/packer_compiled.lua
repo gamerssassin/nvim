@@ -133,7 +133,7 @@ _G.packer_plugins = {
   ["onedark.nvim"] = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/onedark.nvim",
-    url = "https://github.com/ful1e5/onedark.nvim"
+    url = "https://github.com/navarasu/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -154,6 +154,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-cpp-enhanced-highlight"] = {
+    loaded = true,
+    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/vim-cpp-enhanced-highlight",
+    url = "https://github.com/octol/vim-cpp-enhanced-highlight"
   },
   ["vim-devicons"] = {
     loaded = true,

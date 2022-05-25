@@ -11,7 +11,8 @@ return require('packer').startup(function()
   use 'EdenEast/nightfox.nvim'
   use 'junegunn/goyo.vim'
   use 'tpope/vim-fugitive'
-  use 'ful1e5/onedark.nvim'
+  use 'navarasu/onedark.nvim'
+  use 'octol/vim-cpp-enhanced-highlight'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'hrsh7th/nvim-compe'
   use {'mangeshrex/everblush.vim'}
