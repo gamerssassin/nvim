@@ -4,6 +4,7 @@ return require('packer').startup(function()
   use 'vimwiki/vimwiki'
   use 'Xuyuanp/nerdtree-git-plugin'
   use 'ryanoasis/vim-devicons'
+  use 'github/copilot.vim'
   use 'farmergreg/vim-lastplace'
   use 'jiangmiao/auto-pairs'
   use 'ackyshake/VimCompletesMe'
