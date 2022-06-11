@@ -5,7 +5,7 @@ return require('packer').startup(function()
   use 'Xuyuanp/nerdtree-git-plugin'
   use 'vim-airline/vim-airline'
   use 'vim-airline/vim-airline-themes'
-  use 'vim-airline/vim-airline-symbols'
+  use 'justinmk/vim-sneak'
   use 'ryanoasis/vim-devicons'
   use 'github/copilot.vim'
   use 'farmergreg/vim-lastplace'

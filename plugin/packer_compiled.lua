@@ -200,6 +200,11 @@ _G.packer_plugins = {
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/vim-lastplace",
     url = "https://github.com/farmergreg/vim-lastplace"
   },
+  ["vim-sneak"] = {
+    loaded = true,
+    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/vim-sneak",
+    url = "https://github.com/justinmk/vim-sneak"
+  },
   vimwiki = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/vimwiki",
