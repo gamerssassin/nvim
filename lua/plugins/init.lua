@@ -4,6 +4,8 @@ return require('packer').startup(function()
   use 'vimwiki/vimwiki'
   use 'Xuyuanp/nerdtree-git-plugin'
   use 'vim-airline/vim-airline'
+  use 'vim-airline/vim-airline-themes'
+  use 'vim-airline/vim-airline-symbols'
   use 'ryanoasis/vim-devicons'
   use 'github/copilot.vim'
   use 'farmergreg/vim-lastplace'

@@ -170,6 +170,16 @@ _G.packer_plugins = {
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   },
+  ["vim-airline-symbols"] = {
+    loaded = true,
+    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/vim-airline-symbols",
+    url = "https://github.com/vim-airline/vim-airline-symbols"
+  },
+  ["vim-airline-themes"] = {
+    loaded = true,
+    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
+    url = "https://github.com/vim-airline/vim-airline-themes"
+  },
   ["vim-cpp-enhanced-highlight"] = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/vim-cpp-enhanced-highlight",
