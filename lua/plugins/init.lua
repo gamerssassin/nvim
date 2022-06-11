@@ -3,6 +3,7 @@ return require('packer').startup(function()
   use 'preservim/nerdtree'
   use 'vimwiki/vimwiki'
   use 'Xuyuanp/nerdtree-git-plugin'
+  use 'vim-airline/vim-airline'
   use 'ryanoasis/vim-devicons'
   use 'github/copilot.vim'
   use 'farmergreg/vim-lastplace'
