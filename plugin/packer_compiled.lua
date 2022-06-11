@@ -160,6 +160,11 @@ _G.packer_plugins = {
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/semantic-highlight.vim",
     url = "https://github.com/jaxbot/semantic-highlight.vim"
   },
+  semshi = {
+    loaded = true,
+    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/semshi",
+    url = "https://github.com/numirias/semshi"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -169,11 +174,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
-  },
-  ["vim-airline-symbols"] = {
-    loaded = true,
-    path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/vim-airline-symbols",
-    url = "https://github.com/vim-airline/vim-airline-symbols"
   },
   ["vim-airline-themes"] = {
     loaded = true,
