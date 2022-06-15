@@ -3,6 +3,7 @@ require('treesitter-config')
 require('keymaps')
 require('compe-config')
 require('themes')
+require('term-setup')
 
 vim.cmd('set hidden')
 vim.cmd('noswapfile')
