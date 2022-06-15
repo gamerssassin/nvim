@@ -22,6 +22,9 @@ return require('packer').startup(function()
   use 'numirias/semshi'
   use 'jaxbot/semantic-highlight.vim'
   use {'mangeshrex/everblush.vim'}
+  use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
+  require("toggleterm").setup()
+end}
   use {
     "williamboman/nvim-lsp-installer",
     {
