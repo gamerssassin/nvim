@@ -5,6 +5,7 @@ require('compe-config')
 require('themes')
 require('term-setup')
 
+vim.cmd('set nu')
 vim.cmd('set hidden')
 vim.cmd('noswapfile')
 vim.cmd('set noerrorbells')
