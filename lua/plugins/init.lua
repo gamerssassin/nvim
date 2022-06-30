@@ -16,6 +16,8 @@ return require('packer').startup(function()
   use 'junegunn/goyo.vim'
   use 'tpope/vim-fugitive'
   use 'navarasu/onedark.nvim'
+  use 'bronson/vim-trailing-whitespace'
+  use 'preservim/nerdcommenter'
   --use 'tomasr/molokai'
   use 'octol/vim-cpp-enhanced-highlight'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
