@@ -5,7 +5,6 @@ return require('packer').startup(function()
   use 'Xuyuanp/nerdtree-git-plugin'
   use 'vim-airline/vim-airline'
   use 'vim-airline/vim-airline-themes'
-  use 'justinmk/vim-sneak'
   use 'ryanoasis/vim-devicons'
   use 'github/copilot.vim'
   use 'farmergreg/vim-lastplace'
@@ -16,12 +15,16 @@ return require('packer').startup(function()
   use 'junegunn/goyo.vim'
   use 'tpope/vim-fugitive'
   use 'navarasu/onedark.nvim'
+  use 'tpope/vim-surround'
   use 'bronson/vim-trailing-whitespace'
-  use 'preservim/nerdcommenter'
-  --use 'tomasr/molokai'
+  use 'tpope/vim-commentary'
+  use 'junegunn/fzf'
+  use 'machakann/vim-highlightedyank'
+  -- use 'tomasr/molokai'
   use 'octol/vim-cpp-enhanced-highlight'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'hrsh7th/nvim-compe'
+  use 'junegunn/fzf.vim'
   use 'numirias/semshi'
   use 'jaxbot/semantic-highlight.vim'
   use {'mangeshrex/everblush.vim'}
@@ -42,10 +45,6 @@ end}
     }
 }
 
-  use {
-  'nvim-telescope/telescope.nvim',
-  requires = { {'nvim-lua/plenary.nvim'} }
-}
   use {
   'lewis6991/gitsigns.nvim',
   -- tag = 'release' -- To use the latest release

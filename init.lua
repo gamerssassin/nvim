@@ -1,3 +1,5 @@
+Vim = vim.cmd
+
 require('plugins')
 require('treesitter-config')
 require('keymaps')
@@ -5,14 +7,13 @@ require('compe-config')
 require('themes')
 require('term-setup')
 
-vim.cmd('set nu')
-vim.cmd('set hidden')
-vim.cmd('noswapfile')
-vim.cmd('set noerrorbells')
-vim.cmd('set smartindent')
-vim.cmd('set incsearch')
-vim.cmd('filetype indent plugin on')
-vim.cmd('set tabstop=4 softtabstop=4')
-vim.cmd('set encoding=utf-8')
-
-
+Vim('set nu')
+Vim('set mouse=a')
+Vim('set hidden')
+Vim('noswapfile')
+Vim('set noerrorbells')
+Vim('set smartindent')
+Vim('set incsearch')
+Vim('filetype indent plugin on')
+Vim('set tabstop=4 softtabstop=4')
+Vim('set encoding=utf-8')
