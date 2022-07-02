@@ -25,7 +25,6 @@ return require('packer').startup(function()
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'hrsh7th/nvim-compe'
   use 'junegunn/fzf.vim'
-  use 'numirias/semshi'
   use 'jaxbot/semantic-highlight.vim'
   use {'mangeshrex/everblush.vim'}
   use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
