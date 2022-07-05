@@ -13,7 +13,7 @@ keymap("n", "<A-h>", "<C-w>h", opts)
 keymap("n", "<A-j>", "<C-w>j", opts)
 keymap("n", "<A-k>", "<C-w>k", opts)
 keymap("n", "<A-l>", "<C-w>l", opts)
-keymap("n", "<C-w>", ":Windows", opts)
+keymap("n", "<C-w>", ":Windows<CR>", opts)
 keymap("n", "<A-w>", ":FixWhitespace<CR>", opts)
 
 
