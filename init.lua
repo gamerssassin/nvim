@@ -6,6 +6,7 @@ require('keymaps')
 require('compe-config')
 require('themes')
 require('term-setup')
+require('discord-presence')
 
 Vim('set nu')
 Vim('set mouse=a')
