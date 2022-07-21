@@ -7,6 +7,7 @@ require('compe-config')
 require('themes')
 require('term-setup')
 require('indent')
+require('discord')
 
 Vim('set nu')
 Vim('set mouse=a')
