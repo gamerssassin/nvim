@@ -21,8 +21,10 @@ return require('packer').startup(function()
   use 'junegunn/fzf'
   use 'machakann/vim-highlightedyank'
   -- use 'tomasr/molokai'
+  use 'lukas-reineke/indent-blankline.nvim'
   use 'octol/vim-cpp-enhanced-highlight'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
+  use 'p00f/nvim-ts-rainbow'
   use 'hrsh7th/nvim-compe'
   use 'andweeb/presence.nvim'
   use 'junegunn/fzf.vim'
