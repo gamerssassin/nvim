@@ -30,6 +30,7 @@ return require('packer').startup(function()
   use 'jaxbot/semantic-highlight.vim'
   use {'mangeshrex/everblush.vim'}
   use 'andweeb/presence.nvim'
+  use 'p00f/nvim-ts-rainbow'
   use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
   require("toggleterm").setup()
 end}
