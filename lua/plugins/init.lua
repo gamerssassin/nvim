@@ -10,7 +10,7 @@ return require('packer').startup(function()
   use 'farmergreg/vim-lastplace'
   use 'jiangmiao/auto-pairs'
   use 'ackyshake/VimCompletesMe'
-  use 'luochen1990/rainbow'
+  use 'junegunn/rainbow_parentheses.vim'
   use 'EdenEast/nightfox.nvim'
   use 'junegunn/goyo.vim'
   use 'tpope/vim-fugitive'
@@ -21,18 +21,21 @@ return require('packer').startup(function()
   use 'junegunn/fzf'
   use 'machakann/vim-highlightedyank'
   -- use 'tomasr/molokai'
-  use 'lukas-reineke/indent-blankline.nvim'
   use 'octol/vim-cpp-enhanced-highlight'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
-  use 'p00f/nvim-ts-rainbow'
+  use 'frazrepo/vim-rainbow'
   use 'hrsh7th/nvim-compe'
-  use 'andweeb/presence.nvim'
   use 'junegunn/fzf.vim'
   use 'jaxbot/semantic-highlight.vim'
   use {'mangeshrex/everblush.vim'}
   use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
   require("toggleterm").setup()
 end}
+  require("packer").startup(
+    function()
+        use "lukas-reineke/indent-blankline.nvim"
+    end
+)
   use {
     "williamboman/nvim-lsp-installer",
     {
