@@ -6,6 +6,7 @@ require('keymaps')
 require('compe-config')
 require('themes')
 require('term-setup')
+require('indent')
 
 Vim('set nu')
 Vim('set mouse=a')
