@@ -25,17 +25,13 @@ return require('packer').startup(function()
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'frazrepo/vim-rainbow'
   use 'hrsh7th/nvim-compe'
+  use 'lukas-reineke/indent-blankline.nvim'
   use 'junegunn/fzf.vim'
   use 'jaxbot/semantic-highlight.vim'
   use {'mangeshrex/everblush.vim'}
   use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
   require("toggleterm").setup()
 end}
-  require("packer").startup(
-    function()
-        use "lukas-reineke/indent-blankline.nvim"
-    end
-)
   use {
     "williamboman/nvim-lsp-installer",
     {
