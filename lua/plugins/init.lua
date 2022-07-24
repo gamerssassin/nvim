@@ -46,7 +46,12 @@ end}
         end
     }
 }
-
+use({
+		"https://git.sr.ht/~whynothugo/lsp_lines.nvim",
+		config = function()
+			require("lsp_lines").setup()
+	end
+})
   use {
   'lewis6991/gitsigns.nvim',
   -- tag = 'release' -- To use the latest release
