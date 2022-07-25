@@ -21,6 +21,9 @@ return require('packer').startup(function()
   use 'junegunn/fzf'
   use 'machakann/vim-highlightedyank'
   -- use 'tomasr/molokai'
+  use 'OmniSharp/omnisharp-vim'
+  use 'dense-analysis/ale'
+  use {'neoclide/coc.nvim', branch = 'release'}
   use 'octol/vim-cpp-enhanced-highlight'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'frazrepo/vim-rainbow'
@@ -34,25 +37,6 @@ return require('packer').startup(function()
   use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
   require("toggleterm").setup()
 end}
-  use {
-    "williamboman/nvim-lsp-installer",
-    {
-        "neovim/nvim-lspconfig",
-        config = function()
-            require("nvim-lsp-installer").setup {}
-            local lspconfig = require("lspconfig")
-            lspconfig.sumneko_lua.setup {}
-			lspconfig.pyright.setup{}
-			lspconfig.clangd.setup{}
-        end
-    }
-}
-use({
-	"https://git.sr.ht/~whynothugo/lsp_lines.nvim",
-	config = function()
-		require("lsp_lines").setup()
-	end,
-})
   use {
   'lewis6991/gitsigns.nvim',
   -- tag = 'release' -- To use the latest release
