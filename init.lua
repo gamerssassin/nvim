@@ -3,11 +3,9 @@ Vim = vim.cmd
 require('plugins')
 require('treesitter-config')
 require('keymaps')
-require('compe-config')
 require('themes')
 require('term-setup')
 require('indent')
-require('compe-config')
 
 Vim('set nu')
 Vim('set pumheight=10')
