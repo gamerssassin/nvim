@@ -27,7 +27,6 @@ return require('packer').startup(function()
   use 'octol/vim-cpp-enhanced-highlight'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'frazrepo/vim-rainbow'
-  use 'hrsh7th/nvim-compe'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'junegunn/fzf.vim'
   use 'jaxbot/semantic-highlight.vim'

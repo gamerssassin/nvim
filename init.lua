@@ -9,6 +9,7 @@ require('indent')
 require('discord')
 
 Vim('set nu')
+Vim('set pumheight=10')
 Vim('set mouse=a')
 Vim('set hidden')
 Vim('autocmd FileType * set formatoptions-=cro')
