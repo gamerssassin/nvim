@@ -10,7 +10,7 @@ vim.g.maplocalleader = "<,>"
 keymap("n", "<C-f>", ":NERDTreeToggle<CR>", opts)
 keymap("n", "<A-f>", ":Goyo<CR>", opts)
 keymap("n", "<A-h>", "<C-w>h", opts)
-keymap("n", "<A-q>", ":q", opts)
+keymap("n", "<A-q>", ":q<CR>", opts)
 keymap("n", "<A-j>", "<C-w>j", opts)
 keymap("n", "<A-k>", "<C-w>k", opts)
 keymap("n", "<A-l>", "<C-w>l", opts)
