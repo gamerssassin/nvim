@@ -3,12 +3,16 @@ Vim = vim.cmd
 require('plugins')
 require('treesitter-config')
 require('keymaps')
-require('themes')
+-- require('themes')
 require('term-setup')
 require('indent')
 require('discord')
+require('airline')
+require('icons')
+
 
 Vim('set nu')
+Vim('colorscheme ayu-dark')
 Vim('set pumheight=10')
 Vim('set mouse=a')
 Vim('set hidden')
