@@ -9,7 +9,7 @@ require('indent')
 require('discord')
 require('airline')
 require('icons')
-
+require('buffer')
 
 Vim('set nu')
 Vim('colorscheme ayu-dark')
