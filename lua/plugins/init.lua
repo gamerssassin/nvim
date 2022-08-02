@@ -6,6 +6,7 @@ return require('packer').startup(function()
   use 'vim-airline/vim-airline'
   use 'vim-airline/vim-airline-themes'
   use 'ryanoasis/vim-devicons'
+  use 'kyazdani42/nvim-web-devicons'
   use 'github/copilot.vim'
   use 'farmergreg/vim-lastplace'
   use 'jiangmiao/auto-pairs'
