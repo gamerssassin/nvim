@@ -24,6 +24,7 @@ return require('packer').startup(function()
   use 'junegunn/fzf'
   use 'machakann/vim-highlightedyank'
   -- use 'tomasr/molokai'
+  use 'akinsho/bufferline.nvim'
   use 'octol/vim-cpp-enhanced-highlight'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'frazrepo/vim-rainbow'

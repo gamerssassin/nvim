@@ -6,6 +6,7 @@ require('keymaps')
 require('themes')
 require('term-setup')
 require('indent')
+require('icons')
 
 Vim('set nu')
 Vim('set pumheight=10')
