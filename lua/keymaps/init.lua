@@ -23,7 +23,7 @@ keymap("n", "<C-Right>", ":tabnext<CR>", opts)
 keymap("i", "<TAB>", "compe#complete()", opts)
 
 
-keymap("n", "<A-e>", ":Copilot enable<CR>", opts)
-keymap("n", "<A-d>", ":Copilot disable<CR>", opts)
+keymap("i", "<A-e>", ":Copilot enable<CR>", opts)
+keymap("i", "<A-d>", ":Copilot disable<CR>", opts)
 
 keymap("n", "<C-p>", ":Files<CR>", opts)
