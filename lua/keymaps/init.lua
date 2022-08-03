@@ -26,5 +26,5 @@ keymap("n", "<C-p>", ":Files<CR>", opts)
 
 
 --copilot
-keymap("n", "<A-d>", ":Copilot disable<CR>", opts)
-keymap("n", "<A-e>", ":Copilot enable<CR>", opts)
+keymap("i", "<A-d>", ":Copilot disable<CR>", opts)
+keymap("i", "<A-e>", ":Copilot enable<CR>", opts)
