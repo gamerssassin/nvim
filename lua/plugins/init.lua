@@ -8,6 +8,7 @@ return require('packer').startup(function()
   use 'ryanoasis/vim-devicons'
   use 'kyazdani42/nvim-web-devicons'
   use 'github/copilot.vim'
+  use 'numirias/semshi'
   use 'farmergreg/vim-lastplace'
   use 'jiangmiao/auto-pairs'
   use 'ackyshake/VimCompletesMe'
