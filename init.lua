@@ -10,6 +10,7 @@ require('discord')
 require('airline')
 require('icons')
 require('buffer')
+require('coc-settings')
 
 Vim('set nu')
 Vim('colorscheme ayu-dark')
