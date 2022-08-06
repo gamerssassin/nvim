@@ -260,6 +260,11 @@ _G.packer_plugins = {
     path = "/home/rohail/.local/share/nvim/site/pack/packer/start/vim-trailing-whitespace",
     url = "https://github.com/bronson/vim-trailing-whitespace"
   },
+  vimspector = {
+    loaded = true,
+    path = "/home/rohail/.local/share/nvim/site/pack/packer/start/vimspector",
+    url = "https://github.com/puremourning/vimspector"
+  },
   vimwiki = {
     loaded = true,
     path = "/home/rohail/.local/share/nvim/site/pack/packer/start/vimwiki",
