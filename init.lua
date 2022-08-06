@@ -9,6 +9,7 @@ require('indent')
 require('buffer')
 require('airline')
 require('icons')
+require('coc-setup')
 
 Vim('colorscheme ayu-dark')
 Vim('set nu')
