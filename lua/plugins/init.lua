@@ -13,7 +13,6 @@ return require('packer').startup(function()
   use 'github/copilot.vim'
   use 'farmergreg/vim-lastplace'
   use 'jiangmiao/auto-pairs'
-  use 'ackyshake/VimCompletesMe'
   use 'junegunn/rainbow_parentheses.vim'
   use 'EdenEast/nightfox.nvim'
   use 'junegunn/goyo.vim'

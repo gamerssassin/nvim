@@ -69,11 +69,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  VimCompletesMe = {
-    loaded = true,
-    path = "/home/rohail/.local/share/nvim/site/pack/packer/start/VimCompletesMe",
-    url = "https://github.com/ackyshake/VimCompletesMe"
-  },
   ale = {
     loaded = true,
     path = "/home/rohail/.local/share/nvim/site/pack/packer/start/ale",
