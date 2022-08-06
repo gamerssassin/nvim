@@ -11,7 +11,7 @@ return require('packer').startup(function()
   use 'numirias/semshi'
   use 'farmergreg/vim-lastplace'
   use 'jiangmiao/auto-pairs'
-  use 'ackyshake/VimCompletesMe'
+  -- use 'ackyshake/VimCompletesMe'
   use 'junegunn/rainbow_parentheses.vim'
   use 'EdenEast/nightfox.nvim'
   use 'junegunn/goyo.vim'
