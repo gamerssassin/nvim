@@ -24,6 +24,9 @@ keymap("n", "<C-Right>", ":tabnext<CR>", opts)
 
 keymap("n", "<C-p>", ":Files<CR>", opts)
 
+-- copy
+keymap("v", "<C-c>", '"+y', opts)
+
 
 --copilot
 keymap("n", "<A-d>", ":Copilot disable<CR>", opts)
