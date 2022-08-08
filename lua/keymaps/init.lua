@@ -26,3 +26,5 @@ keymap("n", "<A-e>", ":Copilot enable<CR>", opts)
 keymap("n", "<A-d>", ":Copilot disable<CR>", opts)
 
 keymap("n", "<C-p>", ":Files<CR>", opts)
+
+keymap("v", "<C-c>", '"+y', opts)
