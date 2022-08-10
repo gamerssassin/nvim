@@ -22,7 +22,7 @@ return require('packer').startup(function()
   use 'bronson/vim-trailing-whitespace'
   use 'tpope/vim-commentary'
   use 'OmniSharp/omnisharp-vim'
-  use 'dense-analysis/ale'
+  --use 'dense-analysis/ale'
   use 'junegunn/fzf'
   use 'machakann/vim-highlightedyank'
   -- use 'tomasr/molokai'
