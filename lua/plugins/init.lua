@@ -24,7 +24,6 @@ return require('packer').startup(function()
   use 'junegunn/fzf'
   use 'machakann/vim-highlightedyank'
   -- use 'tomasr/molokai'
-  use 'puremourning/vimspector'
   use 'OmniSharp/omnisharp-vim'
   use 'dense-analysis/ale'
   use {'neoclide/coc.nvim', branch = 'release'}
