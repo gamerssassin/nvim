@@ -11,7 +11,7 @@ require('airline')
 require('icons')
 require('coc-setup')
 
-Vim('colorscheme ayu-dark')
+--Vim('colorscheme ayu-dark')
 Vim('set nu')
 Vim('set pumheight=10')
 Vim('set mouse=a')

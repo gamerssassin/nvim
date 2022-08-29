@@ -167,7 +167,7 @@ _G.packer_plugins = {
   ["onedark.nvim"] = {
     loaded = true,
     path = "/home/gamerssassin/.local/share/nvim/site/pack/packer/start/onedark.nvim",
-    url = "https://github.com/navarasu/onedark.nvim"
+    url = "https://github.com/gamerssassin/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
