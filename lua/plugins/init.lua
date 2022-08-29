@@ -17,7 +17,7 @@ return require('packer').startup(function()
   use 'EdenEast/nightfox.nvim'
   use 'junegunn/goyo.vim'
   use 'tpope/vim-fugitive'
-  use 'navarasu/onedark.nvim'
+  use 'gamerssassin/onedark.nvim'
   use 'tpope/vim-surround'
   use 'bronson/vim-trailing-whitespace'
   use 'tpope/vim-commentary'
