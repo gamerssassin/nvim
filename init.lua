@@ -11,6 +11,7 @@ require('airline')
 require('icons')
 require('buffer')
 require('coc-settings')
+require('colors')
 
 Vim('set nu')
 Vim('colorscheme ayu-dark')
