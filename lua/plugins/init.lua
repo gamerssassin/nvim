@@ -32,6 +32,7 @@ return require('packer').startup(function()
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   use 'frazrepo/vim-rainbow'
   use 'lukas-reineke/indent-blankline.nvim'
+  use 'Akianonymus/nvim-colorizer.lua'
   use 'junegunn/fzf.vim'
   use 'jaxbot/semantic-highlight.vim'
   use {'mangeshrex/everblush.vim'}
