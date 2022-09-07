@@ -12,6 +12,7 @@ require('icons')
 require('buffer')
 require('coc-settings')
 require('colors')
+require('markdown-preview')
 
 Vim('set nu')
 Vim('colorscheme ayu-dark')
