@@ -35,6 +35,7 @@ return require('packer').startup(function()
   use 'Akianonymus/nvim-colorizer.lua'
   use 'junegunn/fzf.vim'
   use 'jaxbot/semantic-highlight.vim'
+  use 'gaoDean/autolist.nvim'
   use {'mangeshrex/everblush.vim'}
   use {'neoclide/coc.nvim', branch = 'release'}
   use({
