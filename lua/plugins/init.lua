@@ -32,6 +32,7 @@ return require('packer').startup(function()
   use 'frazrepo/vim-rainbow'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'junegunn/fzf.vim'
+  use 'iamcco/markdown-preview.nvim'
   use 'jaxbot/semantic-highlight.vim'
   use {'mangeshrex/everblush.vim'}
   use 'andweeb/presence.nvim'
