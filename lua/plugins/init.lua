@@ -36,6 +36,12 @@ return require('packer').startup(function()
   use {'mangeshrex/everblush.vim'}
   use 'andweeb/presence.nvim'
   use 'p00f/nvim-ts-rainbow'
+  use({
+	"iamcco/markdown-preview.nvim",
+	run = function() vim.fn["mkdp#util#install"]() end,
+})
+
+use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
   use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
   require("toggleterm").setup()
 end}
