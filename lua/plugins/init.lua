@@ -40,9 +40,6 @@ return require('packer').startup(function()
   use({
       "iamcco/markdown-preview.nvim", run = "cd app && npm install",
       setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
-  use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
-  require("toggleterm").setup()
-end}
   use {
   'lewis6991/gitsigns.nvim',
   -- tag = 'release' -- To use the latest release
