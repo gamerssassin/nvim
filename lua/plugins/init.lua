@@ -8,7 +8,7 @@ return require('packer').startup(function()
   use 'ryanoasis/vim-devicons'
   use 'kyazdani42/nvim-web-devicons'
   use 'github/copilot.vim'
-  use 'numirias/semshi'
+  -- use 'numirias/semshi'
   use 'farmergreg/vim-lastplace'
   use 'jiangmiao/auto-pairs'
   -- use 'ackyshake/VimCompletesMe'
@@ -42,7 +42,7 @@ return require('packer').startup(function()
       "iamcco/markdown-preview.nvim",
       run = function() vim.fn["mkdp#util#install"]() end,
 })
-  use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
   require("toggleterm").setup()
 end}
   use {
