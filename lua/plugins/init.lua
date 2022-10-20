@@ -32,11 +32,13 @@ return require('packer').startup(function()
   use 'frazrepo/vim-rainbow'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'junegunn/fzf.vim'
-  use 'iamcco/markdown-preview.nvim'
   use 'jaxbot/semantic-highlight.vim'
   use {'mangeshrex/everblush.vim'}
   use 'andweeb/presence.nvim'
   use 'p00f/nvim-ts-rainbow'
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+  require("toggleterm").setup()
+end}
   use({
       "iamcco/markdown-preview.nvim", run = "cd app && npm install",
       setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
