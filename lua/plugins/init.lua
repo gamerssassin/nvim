@@ -18,7 +18,7 @@ return require('packer').startup(function()
   use 'junegunn/goyo.vim'
   use 'tpope/vim-fugitive'
   use 'tpope/vim-surround'
-  use 'bronson/vim-trailing-whitespace'
+  use 'ntpeters/vim-better-whitespace'
   use 'tpope/vim-commentary'
   use 'junegunn/fzf'
   use 'machakann/vim-highlightedyank'
