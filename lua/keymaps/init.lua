@@ -15,7 +15,7 @@ keymap("n", "<A-j>", "<C-w>j", opts)
 keymap("n", "<A-k>", "<C-w>k", opts)
 keymap("n", "<A-l>", "<C-w>l", opts)
 keymap("n", "<C-w>", ":Windows<CR>", opts)
-keymap("n", "<A-w>", ":FixWhitespace<CR>", opts)
+keymap("n", "<A-w>", ":StripWhitespace<CR>", opts)
 keymap("n", "<C-l>", ":noh<CR>", opts)
 
 keymap("n", "<C-Left>", ":tabprevious<CR>", opts)
