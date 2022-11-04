@@ -19,7 +19,7 @@ return require('packer').startup(function()
   use 'p00f/nvim-ts-rainbow'
   -- use 'navarasu/onedark.nvim'
   use 'tpope/vim-surround'
-  use 'bronson/vim-trailing-whitespace'
+  use 'ronson/vim-trailing-whitespace'
   use 'tpope/vim-commentary'
   use 'OmniSharp/omnisharp-vim'
   use 'dense-analysis/ale'
