@@ -27,6 +27,7 @@ Vim('filetype indent plugin on')
 Vim('set encoding=utf-8')
 Vim('set ignorecase ')
 Vim('set smartcase')
+Vim('set clipboard=unnamedplus')
 
 Vim('set expandtab')
 Vim('set shiftwidth=4')
