@@ -9,7 +9,7 @@ return require('packer').startup(function()
   use 'Shatur/neovim-ayu'
   use 'akinsho/bufferline.nvim'
   use 'kyazdani42/nvim-web-devicons'
-  use 'numirias/semshi'
+  -- use 'numirias/semshi'
   use 'github/copilot.vim'
   use 'farmergreg/vim-lastplace'
   use 'jiangmiao/auto-pairs'
