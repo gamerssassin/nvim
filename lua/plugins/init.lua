@@ -22,10 +22,10 @@ return require('packer').startup(function()
   use 'tpope/vim-commentary'
   use 'junegunn/fzf'
   use 'machakann/vim-highlightedyank'
+  use 'petertriho/nvim-scrollbar'
   -- use 'tomasr/molokai'
   use 'Akianonymus/nvim-colorizer.lua'
   use 'OmniSharp/omnisharp-vim'
-  use 'dense-analysis/ale'
   use {'neoclide/coc.nvim', branch = 'release'}
   use 'octol/vim-cpp-enhanced-highlight'
   use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
