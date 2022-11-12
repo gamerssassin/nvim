@@ -1,6 +1,7 @@
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   use 'preservim/nerdtree'
+  use 'petertriho/nvim-scrollbar'
   use 'vimwiki/vimwiki'
   use 'Xuyuanp/nerdtree-git-plugin'
   use 'vim-airline/vim-airline'
@@ -8,7 +9,6 @@ return require('packer').startup(function()
   use 'ryanoasis/vim-devicons'
   use 'kyazdani42/nvim-web-devicons'
   use 'github/copilot.vim'
-  -- use 'numirias/semshi'
   use 'farmergreg/vim-lastplace'
   use 'jiangmiao/auto-pairs'
   -- use 'ackyshake/VimCompletesMe'
@@ -22,7 +22,6 @@ return require('packer').startup(function()
   use 'ntpeters/vim-better-whitespace'
   use 'tpope/vim-commentary'
   use 'OmniSharp/omnisharp-vim'
-  use 'dense-analysis/ale'
   use 'junegunn/fzf'
   use 'machakann/vim-highlightedyank'
   -- use 'tomasr/molokai'
