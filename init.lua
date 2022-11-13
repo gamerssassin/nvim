@@ -13,6 +13,7 @@ require('buffer')
 require('coc-settings')
 require('colors')
 require('markdown-preview')
+require('gitsig')
 
 Vim('set nu')
 Vim('colorscheme ayu-dark')
