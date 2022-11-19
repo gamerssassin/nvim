@@ -18,6 +18,7 @@ return require('packer').startup(function()
   use 'junegunn/goyo.vim'
   use 'tpope/vim-fugitive'
   use 'tpope/vim-surround'
+  use 'navarasu/onedark.nvim'
   use 'ntpeters/vim-better-whitespace'
   use 'tpope/vim-commentary'
   use 'junegunn/fzf'
