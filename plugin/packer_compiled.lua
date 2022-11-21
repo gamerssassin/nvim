@@ -197,6 +197,11 @@ _G.packer_plugins = {
     path = "/home/rohail/.local/share/nvim/site/pack/packer/start/omnisharp-vim",
     url = "https://github.com/OmniSharp/omnisharp-vim"
   },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/home/rohail/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/navarasu/onedark.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/rohail/.local/share/nvim/site/pack/packer/start/packer.nvim",
